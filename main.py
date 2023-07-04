@@ -1,10 +1,8 @@
 # this is a simple YouTube video downloader
-
 from pytube import YouTube
 
 link = input("please insert video url:")
 yt = YouTube(link)
-
 
 print(f"video title is: {yt.title}")
 print(f"video view is: {yt.views}")
